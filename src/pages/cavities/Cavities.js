@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../../components/header/Header';
 import gaatjes from '../../assets/dentist.svg';
-import './Cavities.css';
 import { useNavigate } from 'react-router-dom';
+import './Cavities.css';
 
 function Cavities() {
   const navigate = useNavigate();
