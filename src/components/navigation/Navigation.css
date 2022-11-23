@@ -14,10 +14,27 @@ nav {
     height: 60px;
 }
 
+nav a,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
 ul {
     list-style-type: none;
     flex-basis: 550px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.active-link {
+    text-decoration: underline;
+}
+
+.default-link {
+    text-decoration: none;
 }
